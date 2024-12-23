@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+h1 {
+  color: #474a58;
+  font-family: 'Lora', serif;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+h2 {
+  color: #474a58;
+  font-family: 'Lora', serif;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+}
+
+i:hover {
+  color: #000000;
+}
+
+i {
+  font-size: 28px;
+  color: rgb(230,230, 230);
+}
+
+.btn-blue {
+  background-color: #3b9f87;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #000000;
+}
+
+body {
+  background-color: #F7F9FC;
+  color: #474a58;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  list-style: none; /* Remove default list bullets */
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
